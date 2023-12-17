@@ -1,0 +1,101 @@
+.wrapper{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+
+   
+  
+   
+
+}
+.container{
+    display: flex;
+    height: 275px;
+    width: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.coffee-mug-side {
+    
+    height: 275px;
+    width: 200px;
+    background-color: white;
+    margin-left: none;
+    border: none;
+    border-radius: 10px;
+
+    
+
+
+}
+.coffee-mug-other-side{
+    height: 275px;
+    width: 200px;
+    background-color: white;
+    margin-left: none;
+    border: none;
+    border-radius: 10px;
+
+    
+}
+#mug{
+    text-transform: uppercase ;
+    font-weight: 200 ;
+    letter-spacing: 5px;
+}
+h1{
+    
+    /* 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+     */
+     font-weight: 800;
+     font-size: 26px;
+}
+.description{
+    font-size: medium;
+    font-weight: 300;
+}
+#class{
+    columns: 0;
+    column-gap: 20px;
+
+}
+#offerpice{
+    color: rgb(4, 52, 4);
+    font-size: 20px;
+    font-weight: bolder;   
+}
+#price{
+    opacity: 0.5;
+    text-decoration: line-through;
+    align-items: baseline;
+    text-align: end;
+    text-align: justify;
+}
+#btn{
+    height: 30px;
+    width: 180px;
+    align-items: center;
+    text-align: center;
+    padding-top: -5px;
+    background-color: rgb(7, 46, 7); 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+}
+#img{
+    border: none;
+    
+    border-start-start-radius: 5px;
+    border-end-start-radius: 5px;
+}
